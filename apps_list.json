@@ -1,16 +1,18 @@
 {
     "apps": [
         {
+            "typ": "app",
             "name": "memtest-x86_64",
-            "architecture": "x86_64-qemu-q35",
             "version": "Null",
-            "script": "memtest-x86_64.sh"
+            "script": "memtest-x86_64.sh",
+            "description": "memtest runs on x86_64-qemu-q35"
         },
         {
+            "typ": "app",
             "name": "memtest-aarch64",
-            "architecture": "aarch64-qemu-virt",
             "version": "Null",
-            "script": "memtest-x86_64.sh"
+            "script": "memtest-x86_64.sh",
+            "description": "memtest runs on aarch64-qemu-virt"
         }
     ]
 }
