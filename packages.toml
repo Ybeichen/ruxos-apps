@@ -31,7 +31,7 @@ description = ""
 [[packages]]
 typ = "app"
 name = "sqlite3_aarch64-qemu-virt"
-version = "sqlite-amalgamation-3410100"
+version = "amalgamation-3410100"
 description = ""
 
 [[packages]]
