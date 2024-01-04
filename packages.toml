@@ -1,41 +1,29 @@
 [[packages]]
-typ = "app"
+typ = "app-bin"
 name = "helloworld_x86_64-qemu-q35"
 version = "Null"
 description = ""
 
 [[packages]]
-typ = "app"
+typ = "app-bin"
 name = "helloworld_aarch64-qemu-virt"
 version = "Null"
 description = ""
 
 [[packages]]
-typ = "app"
-name = "memtest_x86_64-qemu-q35"
-version = "Null"
-description = ""
-
-[[packages]]
-typ = "app"
-name = "memtest_aarch64-qemu-virt"
-version = "Null"
-description = ""
-
-[[packages]]
-typ = "app"
+typ = "app-bin"
 name = "redis_aarch64-qemu-virt"
 version = "7.0.12"
 description = ""
 
 [[packages]]
-typ = "app"
+typ = "app-bin"
 name = "sqlite3_aarch64-qemu-virt"
 version = "amalgamation-3410100"
 description = ""
 
 [[packages]]
-typ = "app"
+typ = "app-bin"
 name = "iperf3_aarch64-qemu-virt"
 version = "3.1-STABLE"
 description = ""

@@ -5,16 +5,16 @@ PLATFORM=$(echo $APP_NAME | cut -d'_' -f 2-)
 
 ##### You can customize the values here
 BUS="mmio"
-BLK="n"
-NET="n"
-V9P="n"
+BLK="y"
+NET="y"
+V9P="y"
 V9P_PATH="./ruxos_bld"
 NET_DEV="user"
 NET_DUMP="n"
 GRAPHIC="n"
 QEMU_LOG="n"
-SMP="4"
-ARGS=""
+SMP="1"
+ARGS="./redis-server,--bind,0.0.0.0,--port,5555,--save,\"\",--appendonly,no,--protected-mode,no,--ignore-warnings,ARM64-COW-BUG"
 ENVS=""
 DISK_IMG="./ruxos_bld/disk.img"
 #####

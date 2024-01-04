@@ -5,8 +5,8 @@ PLATFORM=$(echo $APP_NAME | cut -d'_' -f 2-)
 
 ##### You can customize the values here
 BUS="mmio"
-BLK="n"
-NET="n"
+BLK="y"
+NET="y"
 V9P="n"
 V9P_PATH="./ruxos_bld"
 NET_DEV="user"
