@@ -1,6 +1,6 @@
 #!/bin/bash
 
-APP_NAME="\$1"
+APP_NAME=$1
 PLATFORM=$(echo $APP_NAME | cut -d'_' -f 2-)
 
 ##### You can customize the values here
@@ -23,11 +23,11 @@ if [ "$PLATFORM" == "x86_64-qemu-q35" ]; then
     BUS="pci"
 fi
 
-SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )/ruxos_bld/bin"
-APP_PATH="${SCRIPT_DIR}/${APP_NAME}"
+BIN_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && cd .. && pwd )/bin"
+APP_PATH="${BIN_DIR}/${APP_NAME}"
 
 if [ ! -f "$APP_PATH" ]; then
-    echo "$APP_NAME not found in $SCRIPT_DIR!"
+    echo "$APP_NAME not found in $BIN_DIR!"
     exit 1
 fi
 
@@ -113,4 +113,5 @@ fi
 
 # Running QEMU
 echo "Running on qemu..."
+echo "Ccommand: $QEMU $QEMU_ARGS"
 $QEMU $QEMU_ARGS
