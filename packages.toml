@@ -1,26 +1,44 @@
 [[packages]]
+typ = "kernel"
+name = "ruxos"
+version = "main"
+description = "Rust Unikernel OS"
+
+[[packages]]
+typ = "app-src"
+name = "rux-redis"
+version = "main"
+description = "Redis library for RuxOS"
+
+[[packages]]
+typ = "app-src"
+name = "rux-iperf"
+version = "main"
+description = "Iperf3 library for RuxOS"
+
+[[packages]]
 typ = "app-bin"
 name = "helloworld_x86_64-qemu-q35"
 version = "Null"
-description = ""
+description = "Executable"
 
 [[packages]]
 typ = "app-bin"
 name = "helloworld_aarch64-qemu-virt"
 version = "Null"
-description = ""
+description = "Executable"
 
 [[packages]]
 typ = "app-bin"
 name = "redis_aarch64-qemu-virt"
 version = "7.0.12"
-description = ""
+description = "Executable"
 
 [[packages]]
 typ = "app-bin"
 name = "sqlite3_aarch64-qemu-virt"
 version = "amalgamation-3410100"
-description = ""
+description = "Executable"
 
 [[packages]]
 typ = "app-bin"
