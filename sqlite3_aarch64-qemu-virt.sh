@@ -23,7 +23,7 @@ if [ "$PLATFORM" == "x86_64-qemu-q35" ]; then
     BUS="pci"
 fi
 
-BIN_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && cd .. && pwd )/bin"
+BIN_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && cd .. && pwd )/app-bin"
 APP_PATH="${BIN_DIR}/${APP_NAME}"
 
 if [ ! -f "$APP_PATH" ]; then

@@ -44,5 +44,5 @@ description = "Executable"
 typ = "app-bin"
 name = "iperf3_aarch64-qemu-virt"
 version = "3.1-STABLE"
-description = ""
+description = "Executable"
 
