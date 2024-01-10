@@ -6,6 +6,12 @@ description = "Rust Unikernel OS"
 
 [[packages]]
 typ = "app-src"
+name = "rux-helloworld"
+version = "main"
+description = "Helloworld library for RuxOS"
+
+[[packages]]
+typ = "app-src"
 name = "rux-redis"
 version = "main"
 description = "Redis library for RuxOS"

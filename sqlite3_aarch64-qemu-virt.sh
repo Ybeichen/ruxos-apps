@@ -8,7 +8,7 @@ BUS="mmio"
 BLK="y"
 NET="n"
 V9P="n"
-V9P_PATH="./ruxos_bld"
+V9P_PATH="./"
 NET_DEV="user"
 NET_DUMP="n"
 GRAPHIC="n"
@@ -16,7 +16,7 @@ QEMU_LOG="n"
 SMP="4"
 ARGS=""
 ENVS=""
-DISK_IMG="./ruxos_bld/disk.img"
+DISK_IMG="./disk.img"
 #####
 
 if [ "$PLATFORM" == "x86_64-qemu-q35" ]; then
