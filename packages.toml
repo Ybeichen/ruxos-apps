@@ -1,54 +1,70 @@
 [[packages]]
 typ = "kernel"
 name = "ruxos"
-version = "main"
+branch = "main"
+version = "stable"
 description = "Rust Unikernel OS"
 
 [[packages]]
 typ = "app-src"
 name = "rux-helloworld"
-version = "main"
+branch = "main"
+version = "stable"
 description = "Helloworld library for RuxOS"
 
 [[packages]]
 typ = "app-src"
 name = "rux-redis"
-version = "main"
+branch = "main"
+version = "stable"
 description = "Redis library for RuxOS"
 
 [[packages]]
 typ = "app-src"
 name = "rux-iperf"
-version = "main"
+branch = "main"
+version = "stable"
 description = "Iperf3 library for RuxOS"
+
+[[packages]]
+typ = "app-src"
+name = "rux-nginx"
+branch = "main"
+version = "stable"
+description = "Nginx library for RuxOS"
 
 [[packages]]
 typ = "app-bin"
 name = "helloworld_x86_64-qemu-q35"
+branch = "Null"
 version = "Null"
 description = "Executable"
 
 [[packages]]
 typ = "app-bin"
 name = "helloworld_aarch64-qemu-virt"
+branch = "Null"
 version = "Null"
 description = "Executable"
 
 [[packages]]
 typ = "app-bin"
 name = "redis_aarch64-qemu-virt"
+branch = "Null"
 version = "7.0.12"
 description = "Executable"
 
 [[packages]]
 typ = "app-bin"
 name = "sqlite3_aarch64-qemu-virt"
+branch = "Null"
 version = "amalgamation-3410100"
 description = "Executable"
 
 [[packages]]
 typ = "app-bin"
 name = "iperf3_aarch64-qemu-virt"
+branch = "Null"
 version = "3.1-STABLE"
 description = "Executable"
 
